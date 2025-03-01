@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/FAK.dir/FAK_autogen/mocs_compilation.cpp.o CMakeFiles/FAK.dir/main_l3.cpp.o -o FAK  /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2 /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2 /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so 
