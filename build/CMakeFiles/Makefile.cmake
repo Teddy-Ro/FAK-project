@@ -145,15 +145,15 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/FAK_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/fak_autogen.dir/AutogenInfo.json"
   ".qt/QtDeploySupport.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/FAK.dir/DependInfo.cmake"
+  "CMakeFiles/fak.dir/DependInfo.cmake"
   "CMakeFiles/clang-format.dir/DependInfo.cmake"
-  "CMakeFiles/FAK_autogen_timestamp_deps.dir/DependInfo.cmake"
-  "CMakeFiles/FAK_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/fak_autogen_timestamp_deps.dir/DependInfo.cmake"
+  "CMakeFiles/fak_autogen.dir/DependInfo.cmake"
   )

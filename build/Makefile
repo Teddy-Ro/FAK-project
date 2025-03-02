@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named FAK
+# Target rules for targets named fak
 
 # Build rule for target.
-FAK: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAK
-.PHONY : FAK
+fak: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fak
+.PHONY : fak
 
 # fast build rule for target.
-FAK/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAK.dir/build.make CMakeFiles/FAK.dir/build
-.PHONY : FAK/fast
+fak/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/build
+.PHONY : fak/fast
 
 #=============================================================================
 # Target rules for targets named clang-format
@@ -143,61 +143,61 @@ clang-format/fast:
 .PHONY : clang-format/fast
 
 #=============================================================================
-# Target rules for targets named FAK_autogen_timestamp_deps
+# Target rules for targets named fak_autogen_timestamp_deps
 
 # Build rule for target.
-FAK_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAK_autogen_timestamp_deps
-.PHONY : FAK_autogen_timestamp_deps
+fak_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fak_autogen_timestamp_deps
+.PHONY : fak_autogen_timestamp_deps
 
 # fast build rule for target.
-FAK_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAK_autogen_timestamp_deps.dir/build.make CMakeFiles/FAK_autogen_timestamp_deps.dir/build
-.PHONY : FAK_autogen_timestamp_deps/fast
+fak_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak_autogen_timestamp_deps.dir/build.make CMakeFiles/fak_autogen_timestamp_deps.dir/build
+.PHONY : fak_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named FAK_autogen
+# Target rules for targets named fak_autogen
 
 # Build rule for target.
-FAK_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAK_autogen
-.PHONY : FAK_autogen
+fak_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fak_autogen
+.PHONY : fak_autogen
 
 # fast build rule for target.
-FAK_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAK_autogen.dir/build.make CMakeFiles/FAK_autogen.dir/build
-.PHONY : FAK_autogen/fast
+fak_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak_autogen.dir/build.make CMakeFiles/fak_autogen.dir/build
+.PHONY : fak_autogen/fast
 
-FAK_autogen/mocs_compilation.o: FAK_autogen/mocs_compilation.cpp.o
-.PHONY : FAK_autogen/mocs_compilation.o
+fak_autogen/mocs_compilation.o: fak_autogen/mocs_compilation.cpp.o
+.PHONY : fak_autogen/mocs_compilation.o
 
 # target to build an object file
-FAK_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAK.dir/build.make CMakeFiles/FAK.dir/FAK_autogen/mocs_compilation.cpp.o
-.PHONY : FAK_autogen/mocs_compilation.cpp.o
+fak_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/fak_autogen/mocs_compilation.cpp.o
+.PHONY : fak_autogen/mocs_compilation.cpp.o
 
-FAK_autogen/mocs_compilation.i: FAK_autogen/mocs_compilation.cpp.i
-.PHONY : FAK_autogen/mocs_compilation.i
+fak_autogen/mocs_compilation.i: fak_autogen/mocs_compilation.cpp.i
+.PHONY : fak_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-FAK_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAK.dir/build.make CMakeFiles/FAK.dir/FAK_autogen/mocs_compilation.cpp.i
-.PHONY : FAK_autogen/mocs_compilation.cpp.i
+fak_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/fak_autogen/mocs_compilation.cpp.i
+.PHONY : fak_autogen/mocs_compilation.cpp.i
 
-FAK_autogen/mocs_compilation.s: FAK_autogen/mocs_compilation.cpp.s
-.PHONY : FAK_autogen/mocs_compilation.s
+fak_autogen/mocs_compilation.s: fak_autogen/mocs_compilation.cpp.s
+.PHONY : fak_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-FAK_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAK.dir/build.make CMakeFiles/FAK.dir/FAK_autogen/mocs_compilation.cpp.s
-.PHONY : FAK_autogen/mocs_compilation.cpp.s
+fak_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/fak_autogen/mocs_compilation.cpp.s
+.PHONY : fak_autogen/mocs_compilation.cpp.s
 
 main_l3.o: main_l3.cpp.o
 .PHONY : main_l3.o
 
 # target to build an object file
 main_l3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAK.dir/build.make CMakeFiles/FAK.dir/main_l3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/main_l3.cpp.o
 .PHONY : main_l3.cpp.o
 
 main_l3.i: main_l3.cpp.i
@@ -205,7 +205,7 @@ main_l3.i: main_l3.cpp.i
 
 # target to preprocess a source file
 main_l3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAK.dir/build.make CMakeFiles/FAK.dir/main_l3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/main_l3.cpp.i
 .PHONY : main_l3.cpp.i
 
 main_l3.s: main_l3.cpp.s
@@ -213,7 +213,7 @@ main_l3.s: main_l3.cpp.s
 
 # target to generate assembly for a file
 main_l3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAK.dir/build.make CMakeFiles/FAK.dir/main_l3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/main_l3.cpp.s
 .PHONY : main_l3.cpp.s
 
 # Help Target
@@ -224,13 +224,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... FAK_autogen"
-	@echo "... FAK_autogen_timestamp_deps"
 	@echo "... clang-format"
-	@echo "... FAK"
-	@echo "... FAK_autogen/mocs_compilation.o"
-	@echo "... FAK_autogen/mocs_compilation.i"
-	@echo "... FAK_autogen/mocs_compilation.s"
+	@echo "... fak_autogen"
+	@echo "... fak_autogen_timestamp_deps"
+	@echo "... fak"
+	@echo "... fak_autogen/mocs_compilation.o"
+	@echo "... fak_autogen/mocs_compilation.i"
+	@echo "... fak_autogen/mocs_compilation.s"
 	@echo "... main_l3.o"
 	@echo "... main_l3.i"
 	@echo "... main_l3.s"

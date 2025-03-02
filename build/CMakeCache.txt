@@ -170,7 +170,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=FAK
+CMAKE_PROJECT_NAME:STATIC=fak
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.0.0
@@ -354,6 +354,15 @@ XKB_INCLUDE_DIR:PATH=XKB_INCLUDE_DIR-NOTFOUND
 
 //Path to a library.
 XKB_LIBRARY:FILEPATH=XKB_LIBRARY-NOTFOUND
+
+//Value Computed by CMake
+fak_BINARY_DIR:STATIC=/home/ted/BMSTUproga/FAK-project/build
+
+//Value Computed by CMake
+fak_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+fak_SOURCE_DIR:STATIC=/home/ted/BMSTUproga/FAK-project
 
 //Value Computed by CMake
 lab3_BINARY_DIR:STATIC=/home/ted/BMSTUproga/FAK-project/build
