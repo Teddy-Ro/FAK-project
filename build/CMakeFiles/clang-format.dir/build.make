@@ -67,7 +67,7 @@ include CMakeFiles/clang-format.dir/compiler_depend.make
 include CMakeFiles/clang-format.dir/progress.make
 
 CMakeFiles/clang-format:
-	clang-format --dry-run -Werror /home/ted/BMSTUproga/FAK-project/main_l3.cpp
+	clang-format --dry-run -Werror /home/ted/BMSTUproga/FAK-project/mainWindow.cpp
 
 clang-format: CMakeFiles/clang-format
 clang-format: CMakeFiles/clang-format.dir/build.make

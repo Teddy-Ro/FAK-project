@@ -2,7 +2,7 @@ fak_autogen/timestamp: \
 	/home/ted/BMSTUproga/FAK-project/CMakeLists.txt \
 	/home/ted/BMSTUproga/FAK-project/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
 	/home/ted/BMSTUproga/FAK-project/build/CMakeFiles/3.28.3/CMakeSystem.cmake \
-	/home/ted/BMSTUproga/FAK-project/main_l3.cpp \
+	/home/ted/BMSTUproga/FAK-project/mainWindow.cpp \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapAtomic.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapOpenGL.cmake \

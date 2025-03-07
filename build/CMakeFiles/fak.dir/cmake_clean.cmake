@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "fak_autogen"
   "CMakeFiles/fak.dir/fak_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/fak.dir/fak_autogen/mocs_compilation.cpp.o.d"
-  "CMakeFiles/fak.dir/main_l3.cpp.o"
-  "CMakeFiles/fak.dir/main_l3.cpp.o.d"
+  "CMakeFiles/fak.dir/mainWindow.cpp.o"
+  "CMakeFiles/fak.dir/mainWindow.cpp.o.d"
   "fak"
   "fak.pdb"
 )

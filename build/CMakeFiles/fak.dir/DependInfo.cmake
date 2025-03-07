@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ted/BMSTUproga/FAK-project/build/fak_autogen/mocs_compilation.cpp" "CMakeFiles/fak.dir/fak_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/fak.dir/fak_autogen/mocs_compilation.cpp.o.d"
-  "/home/ted/BMSTUproga/FAK-project/main_l3.cpp" "CMakeFiles/fak.dir/main_l3.cpp.o" "gcc" "CMakeFiles/fak.dir/main_l3.cpp.o.d"
+  "/home/ted/BMSTUproga/FAK-project/mainWindow.cpp" "CMakeFiles/fak.dir/mainWindow.cpp.o" "gcc" "CMakeFiles/fak.dir/mainWindow.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

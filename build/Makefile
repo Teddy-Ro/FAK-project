@@ -192,29 +192,29 @@ fak_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/fak_autogen/mocs_compilation.cpp.s
 .PHONY : fak_autogen/mocs_compilation.cpp.s
 
-main_l3.o: main_l3.cpp.o
-.PHONY : main_l3.o
+mainWindow.o: mainWindow.cpp.o
+.PHONY : mainWindow.o
 
 # target to build an object file
-main_l3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/main_l3.cpp.o
-.PHONY : main_l3.cpp.o
+mainWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/mainWindow.cpp.o
+.PHONY : mainWindow.cpp.o
 
-main_l3.i: main_l3.cpp.i
-.PHONY : main_l3.i
+mainWindow.i: mainWindow.cpp.i
+.PHONY : mainWindow.i
 
 # target to preprocess a source file
-main_l3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/main_l3.cpp.i
-.PHONY : main_l3.cpp.i
+mainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/mainWindow.cpp.i
+.PHONY : mainWindow.cpp.i
 
-main_l3.s: main_l3.cpp.s
-.PHONY : main_l3.s
+mainWindow.s: mainWindow.cpp.s
+.PHONY : mainWindow.s
 
 # target to generate assembly for a file
-main_l3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/main_l3.cpp.s
-.PHONY : main_l3.cpp.s
+mainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/mainWindow.cpp.s
+.PHONY : mainWindow.cpp.s
 
 # Help Target
 help:
@@ -231,9 +231,9 @@ help:
 	@echo "... fak_autogen/mocs_compilation.o"
 	@echo "... fak_autogen/mocs_compilation.i"
 	@echo "... fak_autogen/mocs_compilation.s"
-	@echo "... main_l3.o"
-	@echo "... main_l3.i"
-	@echo "... main_l3.s"
+	@echo "... mainWindow.o"
+	@echo "... mainWindow.i"
+	@echo "... mainWindow.s"
 .PHONY : help
 
 

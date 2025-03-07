@@ -83,30 +83,30 @@ CMakeFiles/fak.dir/fak_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fak.dir/fak_autogen/mocs_compilation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ted/BMSTUproga/FAK-project/build/fak_autogen/mocs_compilation.cpp -o CMakeFiles/fak.dir/fak_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/fak.dir/main_l3.cpp.o: CMakeFiles/fak.dir/flags.make
-CMakeFiles/fak.dir/main_l3.cpp.o: /home/ted/BMSTUproga/FAK-project/main_l3.cpp
-CMakeFiles/fak.dir/main_l3.cpp.o: CMakeFiles/fak.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ted/BMSTUproga/FAK-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fak.dir/main_l3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fak.dir/main_l3.cpp.o -MF CMakeFiles/fak.dir/main_l3.cpp.o.d -o CMakeFiles/fak.dir/main_l3.cpp.o -c /home/ted/BMSTUproga/FAK-project/main_l3.cpp
+CMakeFiles/fak.dir/mainWindow.cpp.o: CMakeFiles/fak.dir/flags.make
+CMakeFiles/fak.dir/mainWindow.cpp.o: /home/ted/BMSTUproga/FAK-project/mainWindow.cpp
+CMakeFiles/fak.dir/mainWindow.cpp.o: CMakeFiles/fak.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ted/BMSTUproga/FAK-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fak.dir/mainWindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fak.dir/mainWindow.cpp.o -MF CMakeFiles/fak.dir/mainWindow.cpp.o.d -o CMakeFiles/fak.dir/mainWindow.cpp.o -c /home/ted/BMSTUproga/FAK-project/mainWindow.cpp
 
-CMakeFiles/fak.dir/main_l3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fak.dir/main_l3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ted/BMSTUproga/FAK-project/main_l3.cpp > CMakeFiles/fak.dir/main_l3.cpp.i
+CMakeFiles/fak.dir/mainWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fak.dir/mainWindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ted/BMSTUproga/FAK-project/mainWindow.cpp > CMakeFiles/fak.dir/mainWindow.cpp.i
 
-CMakeFiles/fak.dir/main_l3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fak.dir/main_l3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ted/BMSTUproga/FAK-project/main_l3.cpp -o CMakeFiles/fak.dir/main_l3.cpp.s
+CMakeFiles/fak.dir/mainWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fak.dir/mainWindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ted/BMSTUproga/FAK-project/mainWindow.cpp -o CMakeFiles/fak.dir/mainWindow.cpp.s
 
 # Object files for target fak
 fak_OBJECTS = \
 "CMakeFiles/fak.dir/fak_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/fak.dir/main_l3.cpp.o"
+"CMakeFiles/fak.dir/mainWindow.cpp.o"
 
 # External object files for target fak
 fak_EXTERNAL_OBJECTS =
 
 fak: CMakeFiles/fak.dir/fak_autogen/mocs_compilation.cpp.o
-fak: CMakeFiles/fak.dir/main_l3.cpp.o
+fak: CMakeFiles/fak.dir/mainWindow.cpp.o
 fak: CMakeFiles/fak.dir/build.make
 fak: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 fak: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2

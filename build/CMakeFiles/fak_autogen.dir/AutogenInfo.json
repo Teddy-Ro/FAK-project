@@ -230,7 +230,7 @@
 	"SETTINGS_FILE" : "/home/ted/BMSTUproga/FAK-project/build/CMakeFiles/fak_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/ted/BMSTUproga/FAK-project/main_l3.cpp", "MU", null ]
+		[ "/home/ted/BMSTUproga/FAK-project/mainWindow.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

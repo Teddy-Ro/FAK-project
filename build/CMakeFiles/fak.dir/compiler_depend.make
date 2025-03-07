@@ -4,7 +4,7 @@
 CMakeFiles/fak.dir/fak_autogen/mocs_compilation.cpp.o: fak_autogen/mocs_compilation.cpp \
   /usr/include/stdc-predef.h
 
-CMakeFiles/fak.dir/main_l3.cpp.o: /home/ted/BMSTUproga/FAK-project/main_l3.cpp \
+CMakeFiles/fak.dir/mainWindow.cpp.o: /home/ted/BMSTUproga/FAK-project/mainWindow.cpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -802,6 +802,10 @@ CMakeFiles/fak.dir/main_l3.cpp.o: /home/ted/BMSTUproga/FAK-project/main_l3.cpp \
 
 /usr/include/c++/13/bits/move.h:
 
+/usr/include/c++/13/bits/std_function.h:
+
+/usr/include/c++/13/bits/char_traits.h:
+
 fak_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QFrame:
@@ -811,8 +815,6 @@ fak_autogen/mocs_compilation.cpp:
 /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/c++/13/backward/binders.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h:
 
@@ -825,6 +827,8 @@ fak_autogen/mocs_compilation.cpp:
 /usr/include/c++/13/bits/stl_iterator.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/c++/13/backward/binders.h:
 
 /usr/include/c++/13/ext/aligned_buffer.h:
 
@@ -872,6 +876,36 @@ fak_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/tr1/special_function_util.h:
 
+/usr/include/c++/13/iterator:
+
+/usr/include/c++/13/bits/ios_base.h:
+
+/usr/include/c++/13/bits/localefwd.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h:
+
+/usr/include/c++/13/bits/streambuf_iterator.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtGui/qbitmap.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/c++/13/bits/stl_pair.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h:
+
+/usr/include/c++/13/cstdio:
+
+/usr/include/c++/13/bits/allocated_ptr.h:
+
+/usr/include/c++/13/bit:
+
+/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QStyleFactory:
+
+/usr/include/c++/13/bits/basic_string.tcc:
+
 /usr/include/x86_64-linux-gnu/qt6/QtCore/qchar.h:
 
 /usr/include/c++/13/bits/stl_construct.h:
@@ -884,35 +918,7 @@ fak_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/algorithm:
 
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/c++/13/cwchar:
-
-/usr/include/c++/13/iosfwd:
-
-/usr/include/c++/13/bits/predefined_ops.h:
-
-/usr/include/alloca.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/QStyleFactory:
-
-/usr/include/c++/13/bits/basic_string.tcc:
-
-/usr/include/c++/13/bits/allocated_ptr.h:
-
-/usr/include/c++/13/bit:
-
-/usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h:
-
-/usr/include/c++/13/bits/ptr_traits.h:
-
-/usr/include/c++/13/bits/localefwd.h:
-
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h:
-
-/usr/include/c++/13/bits/streambuf_iterator.h:
-
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+/usr/include/c++/13/array:
 
 /usr/include/c++/13/bits/hash_bytes.h:
 
@@ -922,21 +928,23 @@ fak_autogen/mocs_compilation.cpp:
 
 /usr/include/asm-generic/errno-base.h:
 
-/usr/include/c++/13/array:
+/usr/include/x86_64-linux-gnu/sys/select.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtGui/qbitmap.h:
+/usr/include/c++/13/cwchar:
 
-/usr/include/x86_64-linux-gnu/bits/errno.h:
+/usr/include/c++/13/iosfwd:
 
-/usr/include/c++/13/bits/stl_pair.h:
+/usr/include/c++/13/bits/predefined_ops.h:
 
-/usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h:
-
-/usr/include/c++/13/cstdio:
+/usr/include/c++/13/backward/auto_ptr.h:
 
 /usr/include/assert.h:
 
-/usr/include/c++/13/backward/auto_ptr.h:
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h:
+
+/usr/include/c++/13/bits/ptr_traits.h:
 
 /usr/include/c++/13/bits/cxxabi_init_exception.h:
 
@@ -968,10 +976,6 @@ fak_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/bits/ostream_insert.h:
 
-/usr/include/c++/13/iterator:
-
-/usr/include/c++/13/bits/ios_base.h:
-
 /usr/include/c++/13/bits/stl_relops.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
@@ -994,6 +998,10 @@ fak_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/bits/memoryfwd.h:
 
+/usr/include/c++/13/utility:
+
+/usr/include/c++/13/bits/stl_heap.h:
+
 /usr/include/c++/13/bits/std_abs.h:
 
 /usr/include/c++/13/bits/parse_numbers.h:
@@ -1001,12 +1009,6 @@ fak_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/c++/13/bits/node_handle.h:
-
-/usr/include/c++/13/bits/std_function.h:
-
-/usr/include/c++/13/bits/char_traits.h:
-
-/home/ted/BMSTUproga/FAK-project/main_l3.cpp:
 
 /usr/include/c++/13/compare:
 
@@ -1112,10 +1114,6 @@ fak_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/13/unordered_map:
 
-/usr/include/c++/13/bits/stl_heap.h:
-
-/usr/include/c++/13/utility:
-
 /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlayout.h:
 
 /usr/include/c++/13/vector:
@@ -1197,6 +1195,8 @@ fak_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
 /usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h:
+
+/home/ted/BMSTUproga/FAK-project/mainWindow.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 

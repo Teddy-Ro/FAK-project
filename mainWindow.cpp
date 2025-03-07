@@ -10,6 +10,7 @@
 class MainWindow : public QMainWindow {
 public:
     MainWindow(QWidget *parent = nullptr) : QMainWindow(parent) {
+        setWindowFlags(Qt::FramelessWindowHint);
         // Устанавливаем минималистичный стиль
         QApplication::setStyle(QStyleFactory::create("Fusion"));
 

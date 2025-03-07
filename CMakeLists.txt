@@ -9,7 +9,7 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 
 set(SOURCES
-    ${CMAKE_CURRENT_SOURCE_DIR}/main_l3.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/mainWindow.cpp
 )
 
 find_package(Qt6 REQUIRED COMPONENTS Core Widgets)
