@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.o CMakeFiles/FAKApp.dir/src/main.cpp.o CMakeFiles/FAKApp.dir/src/MainWindow.cpp.o -o FAKApp  /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2 /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2 /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so 

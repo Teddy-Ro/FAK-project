@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/ted/BMSTUproga/FAK-project/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/fak.dir/all
+all: CMakeFiles/FAKApp.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,116 +71,89 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/fak.dir/clean
-clean: CMakeFiles/clang-format.dir/clean
-clean: CMakeFiles/fak_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/fak_autogen.dir/clean
+clean: CMakeFiles/FAKApp.dir/clean
+clean: CMakeFiles/FAKApp_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/FAKApp_autogen.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/fak.dir
+# Target rules for target CMakeFiles/FAKApp.dir
 
 # All Build rule for target.
-CMakeFiles/fak.dir/all: CMakeFiles/fak_autogen_timestamp_deps.dir/all
-CMakeFiles/fak.dir/all: CMakeFiles/fak_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ted/BMSTUproga/FAK-project/build/CMakeFiles --progress-num=1,2,3 "Built target fak"
-.PHONY : CMakeFiles/fak.dir/all
+CMakeFiles/FAKApp.dir/all: CMakeFiles/FAKApp_autogen_timestamp_deps.dir/all
+CMakeFiles/FAKApp.dir/all: CMakeFiles/FAKApp_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp.dir/build.make CMakeFiles/FAKApp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp.dir/build.make CMakeFiles/FAKApp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ted/BMSTUproga/FAK-project/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target FAKApp"
+.PHONY : CMakeFiles/FAKApp.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/fak.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ted/BMSTUproga/FAK-project/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fak.dir/all
+CMakeFiles/FAKApp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ted/BMSTUproga/FAK-project/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/FAKApp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ted/BMSTUproga/FAK-project/build/CMakeFiles 0
-.PHONY : CMakeFiles/fak.dir/rule
+.PHONY : CMakeFiles/FAKApp.dir/rule
 
 # Convenience name for target.
-fak: CMakeFiles/fak.dir/rule
-.PHONY : fak
+FAKApp: CMakeFiles/FAKApp.dir/rule
+.PHONY : FAKApp
 
 # clean rule for target.
-CMakeFiles/fak.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/clean
-.PHONY : CMakeFiles/fak.dir/clean
+CMakeFiles/FAKApp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp.dir/build.make CMakeFiles/FAKApp.dir/clean
+.PHONY : CMakeFiles/FAKApp.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/clang-format.dir
+# Target rules for target CMakeFiles/FAKApp_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/clang-format.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clang-format.dir/build.make CMakeFiles/clang-format.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clang-format.dir/build.make CMakeFiles/clang-format.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ted/BMSTUproga/FAK-project/build/CMakeFiles --progress-num= "Built target clang-format"
-.PHONY : CMakeFiles/clang-format.dir/all
+CMakeFiles/FAKApp_autogen_timestamp_deps.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp_autogen_timestamp_deps.dir/build.make CMakeFiles/FAKApp_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp_autogen_timestamp_deps.dir/build.make CMakeFiles/FAKApp_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ted/BMSTUproga/FAK-project/build/CMakeFiles --progress-num= "Built target FAKApp_autogen_timestamp_deps"
+.PHONY : CMakeFiles/FAKApp_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/clang-format.dir/rule: cmake_check_build_system
+CMakeFiles/FAKApp_autogen_timestamp_deps.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ted/BMSTUproga/FAK-project/build/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/clang-format.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/FAKApp_autogen_timestamp_deps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ted/BMSTUproga/FAK-project/build/CMakeFiles 0
-.PHONY : CMakeFiles/clang-format.dir/rule
+.PHONY : CMakeFiles/FAKApp_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
-clang-format: CMakeFiles/clang-format.dir/rule
-.PHONY : clang-format
+FAKApp_autogen_timestamp_deps: CMakeFiles/FAKApp_autogen_timestamp_deps.dir/rule
+.PHONY : FAKApp_autogen_timestamp_deps
 
 # clean rule for target.
-CMakeFiles/clang-format.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clang-format.dir/build.make CMakeFiles/clang-format.dir/clean
-.PHONY : CMakeFiles/clang-format.dir/clean
+CMakeFiles/FAKApp_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp_autogen_timestamp_deps.dir/build.make CMakeFiles/FAKApp_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/FAKApp_autogen_timestamp_deps.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/fak_autogen_timestamp_deps.dir
+# Target rules for target CMakeFiles/FAKApp_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/fak_autogen_timestamp_deps.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak_autogen_timestamp_deps.dir/build.make CMakeFiles/fak_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak_autogen_timestamp_deps.dir/build.make CMakeFiles/fak_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ted/BMSTUproga/FAK-project/build/CMakeFiles --progress-num= "Built target fak_autogen_timestamp_deps"
-.PHONY : CMakeFiles/fak_autogen_timestamp_deps.dir/all
+CMakeFiles/FAKApp_autogen.dir/all: CMakeFiles/FAKApp_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp_autogen.dir/build.make CMakeFiles/FAKApp_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp_autogen.dir/build.make CMakeFiles/FAKApp_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ted/BMSTUproga/FAK-project/build/CMakeFiles --progress-num=6 "Built target FAKApp_autogen"
+.PHONY : CMakeFiles/FAKApp_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/fak_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ted/BMSTUproga/FAK-project/build/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fak_autogen_timestamp_deps.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ted/BMSTUproga/FAK-project/build/CMakeFiles 0
-.PHONY : CMakeFiles/fak_autogen_timestamp_deps.dir/rule
-
-# Convenience name for target.
-fak_autogen_timestamp_deps: CMakeFiles/fak_autogen_timestamp_deps.dir/rule
-.PHONY : fak_autogen_timestamp_deps
-
-# clean rule for target.
-CMakeFiles/fak_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak_autogen_timestamp_deps.dir/build.make CMakeFiles/fak_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/fak_autogen_timestamp_deps.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/fak_autogen.dir
-
-# All Build rule for target.
-CMakeFiles/fak_autogen.dir/all: CMakeFiles/fak_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak_autogen.dir/build.make CMakeFiles/fak_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak_autogen.dir/build.make CMakeFiles/fak_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ted/BMSTUproga/FAK-project/build/CMakeFiles --progress-num=4 "Built target fak_autogen"
-.PHONY : CMakeFiles/fak_autogen.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/fak_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/FAKApp_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ted/BMSTUproga/FAK-project/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fak_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/FAKApp_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ted/BMSTUproga/FAK-project/build/CMakeFiles 0
-.PHONY : CMakeFiles/fak_autogen.dir/rule
+.PHONY : CMakeFiles/FAKApp_autogen.dir/rule
 
 # Convenience name for target.
-fak_autogen: CMakeFiles/fak_autogen.dir/rule
-.PHONY : fak_autogen
+FAKApp_autogen: CMakeFiles/FAKApp_autogen.dir/rule
+.PHONY : FAKApp_autogen
 
 # clean rule for target.
-CMakeFiles/fak_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak_autogen.dir/build.make CMakeFiles/fak_autogen.dir/clean
-.PHONY : CMakeFiles/fak_autogen.dir/clean
+CMakeFiles/FAKApp_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp_autogen.dir/build.make CMakeFiles/FAKApp_autogen.dir/clean
+.PHONY : CMakeFiles/FAKApp_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

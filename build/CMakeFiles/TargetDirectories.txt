@@ -1,6 +1,5 @@
-/home/ted/BMSTUproga/FAK-project/build/CMakeFiles/fak.dir
-/home/ted/BMSTUproga/FAK-project/build/CMakeFiles/clang-format.dir
+/home/ted/BMSTUproga/FAK-project/build/CMakeFiles/FAKApp.dir
 /home/ted/BMSTUproga/FAK-project/build/CMakeFiles/edit_cache.dir
 /home/ted/BMSTUproga/FAK-project/build/CMakeFiles/rebuild_cache.dir
-/home/ted/BMSTUproga/FAK-project/build/CMakeFiles/fak_autogen_timestamp_deps.dir
-/home/ted/BMSTUproga/FAK-project/build/CMakeFiles/fak_autogen.dir
+/home/ted/BMSTUproga/FAK-project/build/CMakeFiles/FAKApp_autogen_timestamp_deps.dir
+/home/ted/BMSTUproga/FAK-project/build/CMakeFiles/FAKApp_autogen.dir

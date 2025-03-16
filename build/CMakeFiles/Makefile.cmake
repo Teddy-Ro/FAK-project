@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/home/ted/BMSTUproga/FAK-project/CMakeLists.txt"
+  "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt6/3rdparty/kwin/FindXKB.cmake"
@@ -102,6 +103,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-none.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake"
+  "/usr/share/cmake-3.28/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
@@ -111,11 +113,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake"
   "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake"
   "/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake"
-  "/usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake"
+  "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake"
   "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake"
   "/usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+  "/usr/share/cmake-3.28/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake-3.28/Modules/Compiler/GNU.cmake"
   "/usr/share/cmake-3.28/Modules/FeatureSummary.cmake"
@@ -130,6 +134,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake"
   "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake"
   "/usr/share/cmake-3.28/Modules/MacroAddFileDependencies.cmake"
+  "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake"
   "/usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake"
@@ -145,15 +150,14 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/fak_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/FAKApp_autogen.dir/AutogenInfo.json"
   ".qt/QtDeploySupport.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/fak.dir/DependInfo.cmake"
-  "CMakeFiles/clang-format.dir/DependInfo.cmake"
-  "CMakeFiles/fak_autogen_timestamp_deps.dir/DependInfo.cmake"
-  "CMakeFiles/fak_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/FAKApp.dir/DependInfo.cmake"
+  "CMakeFiles/FAKApp_autogen_timestamp_deps.dir/DependInfo.cmake"
+  "CMakeFiles/FAKApp_autogen.dir/DependInfo.cmake"
   )

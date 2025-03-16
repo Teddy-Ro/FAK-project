@@ -117,104 +117,115 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named fak
+# Target rules for targets named FAKApp
 
 # Build rule for target.
-fak: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fak
-.PHONY : fak
+FAKApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAKApp
+.PHONY : FAKApp
 
 # fast build rule for target.
-fak/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/build
-.PHONY : fak/fast
+FAKApp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp.dir/build.make CMakeFiles/FAKApp.dir/build
+.PHONY : FAKApp/fast
 
 #=============================================================================
-# Target rules for targets named clang-format
+# Target rules for targets named FAKApp_autogen_timestamp_deps
 
 # Build rule for target.
-clang-format: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clang-format
-.PHONY : clang-format
+FAKApp_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAKApp_autogen_timestamp_deps
+.PHONY : FAKApp_autogen_timestamp_deps
 
 # fast build rule for target.
-clang-format/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clang-format.dir/build.make CMakeFiles/clang-format.dir/build
-.PHONY : clang-format/fast
+FAKApp_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp_autogen_timestamp_deps.dir/build.make CMakeFiles/FAKApp_autogen_timestamp_deps.dir/build
+.PHONY : FAKApp_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named fak_autogen_timestamp_deps
+# Target rules for targets named FAKApp_autogen
 
 # Build rule for target.
-fak_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fak_autogen_timestamp_deps
-.PHONY : fak_autogen_timestamp_deps
+FAKApp_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FAKApp_autogen
+.PHONY : FAKApp_autogen
 
 # fast build rule for target.
-fak_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak_autogen_timestamp_deps.dir/build.make CMakeFiles/fak_autogen_timestamp_deps.dir/build
-.PHONY : fak_autogen_timestamp_deps/fast
+FAKApp_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp_autogen.dir/build.make CMakeFiles/FAKApp_autogen.dir/build
+.PHONY : FAKApp_autogen/fast
 
-#=============================================================================
-# Target rules for targets named fak_autogen
-
-# Build rule for target.
-fak_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fak_autogen
-.PHONY : fak_autogen
-
-# fast build rule for target.
-fak_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak_autogen.dir/build.make CMakeFiles/fak_autogen.dir/build
-.PHONY : fak_autogen/fast
-
-fak_autogen/mocs_compilation.o: fak_autogen/mocs_compilation.cpp.o
-.PHONY : fak_autogen/mocs_compilation.o
+FAKApp_autogen/mocs_compilation.o: FAKApp_autogen/mocs_compilation.cpp.o
+.PHONY : FAKApp_autogen/mocs_compilation.o
 
 # target to build an object file
-fak_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/fak_autogen/mocs_compilation.cpp.o
-.PHONY : fak_autogen/mocs_compilation.cpp.o
+FAKApp_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp.dir/build.make CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.o
+.PHONY : FAKApp_autogen/mocs_compilation.cpp.o
 
-fak_autogen/mocs_compilation.i: fak_autogen/mocs_compilation.cpp.i
-.PHONY : fak_autogen/mocs_compilation.i
+FAKApp_autogen/mocs_compilation.i: FAKApp_autogen/mocs_compilation.cpp.i
+.PHONY : FAKApp_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-fak_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/fak_autogen/mocs_compilation.cpp.i
-.PHONY : fak_autogen/mocs_compilation.cpp.i
+FAKApp_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp.dir/build.make CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.i
+.PHONY : FAKApp_autogen/mocs_compilation.cpp.i
 
-fak_autogen/mocs_compilation.s: fak_autogen/mocs_compilation.cpp.s
-.PHONY : fak_autogen/mocs_compilation.s
+FAKApp_autogen/mocs_compilation.s: FAKApp_autogen/mocs_compilation.cpp.s
+.PHONY : FAKApp_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-fak_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/fak_autogen/mocs_compilation.cpp.s
-.PHONY : fak_autogen/mocs_compilation.cpp.s
+FAKApp_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp.dir/build.make CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.s
+.PHONY : FAKApp_autogen/mocs_compilation.cpp.s
 
-mainWindow.o: mainWindow.cpp.o
-.PHONY : mainWindow.o
+src/MainWindow.o: src/MainWindow.cpp.o
+.PHONY : src/MainWindow.o
 
 # target to build an object file
-mainWindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/mainWindow.cpp.o
-.PHONY : mainWindow.cpp.o
+src/MainWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp.dir/build.make CMakeFiles/FAKApp.dir/src/MainWindow.cpp.o
+.PHONY : src/MainWindow.cpp.o
 
-mainWindow.i: mainWindow.cpp.i
-.PHONY : mainWindow.i
+src/MainWindow.i: src/MainWindow.cpp.i
+.PHONY : src/MainWindow.i
 
 # target to preprocess a source file
-mainWindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/mainWindow.cpp.i
-.PHONY : mainWindow.cpp.i
+src/MainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp.dir/build.make CMakeFiles/FAKApp.dir/src/MainWindow.cpp.i
+.PHONY : src/MainWindow.cpp.i
 
-mainWindow.s: mainWindow.cpp.s
-.PHONY : mainWindow.s
+src/MainWindow.s: src/MainWindow.cpp.s
+.PHONY : src/MainWindow.s
 
 # target to generate assembly for a file
-mainWindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fak.dir/build.make CMakeFiles/fak.dir/mainWindow.cpp.s
-.PHONY : mainWindow.cpp.s
+src/MainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp.dir/build.make CMakeFiles/FAKApp.dir/src/MainWindow.cpp.s
+.PHONY : src/MainWindow.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp.dir/build.make CMakeFiles/FAKApp.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp.dir/build.make CMakeFiles/FAKApp.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FAKApp.dir/build.make CMakeFiles/FAKApp.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -224,16 +235,18 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... clang-format"
-	@echo "... fak_autogen"
-	@echo "... fak_autogen_timestamp_deps"
-	@echo "... fak"
-	@echo "... fak_autogen/mocs_compilation.o"
-	@echo "... fak_autogen/mocs_compilation.i"
-	@echo "... fak_autogen/mocs_compilation.s"
-	@echo "... mainWindow.o"
-	@echo "... mainWindow.i"
-	@echo "... mainWindow.s"
+	@echo "... FAKApp_autogen"
+	@echo "... FAKApp_autogen_timestamp_deps"
+	@echo "... FAKApp"
+	@echo "... FAKApp_autogen/mocs_compilation.o"
+	@echo "... FAKApp_autogen/mocs_compilation.i"
+	@echo "... FAKApp_autogen/mocs_compilation.s"
+	@echo "... src/MainWindow.o"
+	@echo "... src/MainWindow.i"
+	@echo "... src/MainWindow.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 
