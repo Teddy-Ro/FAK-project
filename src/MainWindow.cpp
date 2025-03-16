@@ -161,6 +161,9 @@ void MainWindow::mousePressEvent(QMouseEvent* event) {
 }
 
 void MainWindow::mouseMoveEvent(QMouseEvent* event) {
+
+    updateCursorShape();
+
     if (!m_mousePressed || m_resizeDirection == None) {
         return;
     }
