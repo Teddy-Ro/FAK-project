@@ -1,5 +1,0 @@
-/home/korsar/Project/FAK-project/build/CMakeFiles/FAKApp.dir
-/home/korsar/Project/FAK-project/build/CMakeFiles/edit_cache.dir
-/home/korsar/Project/FAK-project/build/CMakeFiles/rebuild_cache.dir
-/home/korsar/Project/FAK-project/build/CMakeFiles/FAKApp_autogen_timestamp_deps.dir
-/home/korsar/Project/FAK-project/build/CMakeFiles/FAKApp_autogen.dir
