@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ted/BMSTUproga/FAK-project
+CMAKE_SOURCE_DIR = /home/korsar/Project/FAK-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ted/BMSTUproga/FAK-project/build
+CMAKE_BINARY_DIR = /home/korsar/Project/FAK-project/build
 
 # Utility rule file for FAKApp_autogen.
 
@@ -71,9 +71,9 @@ CMakeFiles/FAKApp_autogen: FAKApp_autogen/timestamp
 FAKApp_autogen/timestamp: /usr/lib/qt6/libexec/moc
 FAKApp_autogen/timestamp: /usr/lib/qt6/libexec/uic
 FAKApp_autogen/timestamp: CMakeFiles/FAKApp_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ted/BMSTUproga/FAK-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target FAKApp"
-	/usr/bin/cmake -E cmake_autogen /home/ted/BMSTUproga/FAK-project/build/CMakeFiles/FAKApp_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/ted/BMSTUproga/FAK-project/build/FAKApp_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/korsar/Project/FAK-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target FAKApp"
+	/usr/bin/cmake -E cmake_autogen /home/korsar/Project/FAK-project/build/CMakeFiles/FAKApp_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/korsar/Project/FAK-project/build/FAKApp_autogen/timestamp
 
 FAKApp_autogen: CMakeFiles/FAKApp_autogen
 FAKApp_autogen: FAKApp_autogen/timestamp
@@ -89,6 +89,6 @@ CMakeFiles/FAKApp_autogen.dir/clean:
 .PHONY : CMakeFiles/FAKApp_autogen.dir/clean
 
 CMakeFiles/FAKApp_autogen.dir/depend:
-	cd /home/ted/BMSTUproga/FAK-project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ted/BMSTUproga/FAK-project /home/ted/BMSTUproga/FAK-project /home/ted/BMSTUproga/FAK-project/build /home/ted/BMSTUproga/FAK-project/build /home/ted/BMSTUproga/FAK-project/build/CMakeFiles/FAKApp_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/korsar/Project/FAK-project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/korsar/Project/FAK-project /home/korsar/Project/FAK-project /home/korsar/Project/FAK-project/build /home/korsar/Project/FAK-project/build /home/korsar/Project/FAK-project/build/CMakeFiles/FAKApp_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/FAKApp_autogen.dir/depend
 

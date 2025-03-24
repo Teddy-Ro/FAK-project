@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ted/BMSTUproga/FAK-project
+CMAKE_SOURCE_DIR = /home/korsar/Project/FAK-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ted/BMSTUproga/FAK-project/build
+CMAKE_BINARY_DIR = /home/korsar/Project/FAK-project/build
 
 # Utility rule file for FAKApp_autogen_timestamp_deps.
 
@@ -84,6 +84,6 @@ CMakeFiles/FAKApp_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/FAKApp_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/FAKApp_autogen_timestamp_deps.dir/depend:
-	cd /home/ted/BMSTUproga/FAK-project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ted/BMSTUproga/FAK-project /home/ted/BMSTUproga/FAK-project /home/ted/BMSTUproga/FAK-project/build /home/ted/BMSTUproga/FAK-project/build /home/ted/BMSTUproga/FAK-project/build/CMakeFiles/FAKApp_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/korsar/Project/FAK-project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/korsar/Project/FAK-project /home/korsar/Project/FAK-project /home/korsar/Project/FAK-project/build /home/korsar/Project/FAK-project/build /home/korsar/Project/FAK-project/build/CMakeFiles/FAKApp_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/FAKApp_autogen_timestamp_deps.dir/depend
 

@@ -9,9 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "FAKApp_autogen/timestamp" "custom" "FAKApp_autogen/deps"
-  "/home/ted/BMSTUproga/FAK-project/build/FAKApp_autogen/mocs_compilation.cpp" "CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.o.d"
-  "/home/ted/BMSTUproga/FAK-project/src/MainWindow.cpp" "CMakeFiles/FAKApp.dir/src/MainWindow.cpp.o" "gcc" "CMakeFiles/FAKApp.dir/src/MainWindow.cpp.o.d"
-  "/home/ted/BMSTUproga/FAK-project/src/main.cpp" "CMakeFiles/FAKApp.dir/src/main.cpp.o" "gcc" "CMakeFiles/FAKApp.dir/src/main.cpp.o.d"
+  "/home/korsar/Project/FAK-project/build/FAKApp_autogen/mocs_compilation.cpp" "CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.o.d"
+  "/home/korsar/Project/FAK-project/src/MainWindow.cpp" "CMakeFiles/FAKApp.dir/src/MainWindow.cpp.o" "gcc" "CMakeFiles/FAKApp.dir/src/MainWindow.cpp.o.d"
+  "/home/korsar/Project/FAK-project/src/main.cpp" "CMakeFiles/FAKApp.dir/src/main.cpp.o" "gcc" "CMakeFiles/FAKApp.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

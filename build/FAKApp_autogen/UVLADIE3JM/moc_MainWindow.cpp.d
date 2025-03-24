@@ -1,5 +1,5 @@
-/home/ted/BMSTUproga/FAK-project/build/FAKApp_autogen/UVLADIE3JM/moc_MainWindow.cpp: /home/ted/BMSTUproga/FAK-project/src/MainWindow.h \
-  /home/ted/BMSTUproga/FAK-project/build/FAKApp_autogen/moc_predefs.h \
+/home/korsar/Project/FAK-project/build/FAKApp_autogen/UVLADIE3JM/moc_MainWindow.cpp: /home/korsar/Project/FAK-project/src/MainWindow.h \
+  /home/korsar/Project/FAK-project/build/FAKApp_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

@@ -1,7 +1,7 @@
 CMakeFiles/FAKApp.dir/src/MainWindow.cpp.o: \
- /home/ted/BMSTUproga/FAK-project/src/MainWindow.cpp \
+ /home/korsar/Project/FAK-project/src/MainWindow.cpp \
  /usr/include/stdc-predef.h \
- /home/ted/BMSTUproga/FAK-project/src/MainWindow.h \
+ /home/korsar/Project/FAK-project/src/MainWindow.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \

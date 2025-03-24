@@ -1,5 +1,5 @@
 CMakeFiles/FAKApp.dir/src/main.cpp.o: \
- /home/ted/BMSTUproga/FAK-project/src/main.cpp /usr/include/stdc-predef.h \
+ /home/korsar/Project/FAK-project/src/main.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qapplication.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
@@ -333,7 +333,7 @@ CMakeFiles/FAKApp.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qlocale.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qguiapplication_platform.h \
- /home/ted/BMSTUproga/FAK-project/src/MainWindow.h \
+ /home/korsar/Project/FAK-project/src/MainWindow.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \

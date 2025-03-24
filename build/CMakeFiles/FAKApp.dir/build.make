@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ted/BMSTUproga/FAK-project
+CMAKE_SOURCE_DIR = /home/korsar/Project/FAK-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ted/BMSTUproga/FAK-project/build
+CMAKE_BINARY_DIR = /home/korsar/Project/FAK-project/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/FAKApp.dir/depend.make
@@ -72,51 +72,51 @@ include CMakeFiles/FAKApp.dir/flags.make
 FAKApp_autogen/timestamp: /usr/lib/qt6/libexec/moc
 FAKApp_autogen/timestamp: /usr/lib/qt6/libexec/uic
 FAKApp_autogen/timestamp: CMakeFiles/FAKApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ted/BMSTUproga/FAK-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target FAKApp"
-	/usr/bin/cmake -E cmake_autogen /home/ted/BMSTUproga/FAK-project/build/CMakeFiles/FAKApp_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/ted/BMSTUproga/FAK-project/build/FAKApp_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/korsar/Project/FAK-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target FAKApp"
+	/usr/bin/cmake -E cmake_autogen /home/korsar/Project/FAK-project/build/CMakeFiles/FAKApp_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/korsar/Project/FAK-project/build/FAKApp_autogen/timestamp
 
 CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.o: CMakeFiles/FAKApp.dir/flags.make
 CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.o: FAKApp_autogen/mocs_compilation.cpp
 CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.o: CMakeFiles/FAKApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ted/BMSTUproga/FAK-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.o -MF CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.o -c /home/ted/BMSTUproga/FAK-project/build/FAKApp_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/korsar/Project/FAK-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.o -MF CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.o -c /home/korsar/Project/FAK-project/build/FAKApp_autogen/mocs_compilation.cpp
 
 CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ted/BMSTUproga/FAK-project/build/FAKApp_autogen/mocs_compilation.cpp > CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/korsar/Project/FAK-project/build/FAKApp_autogen/mocs_compilation.cpp > CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ted/BMSTUproga/FAK-project/build/FAKApp_autogen/mocs_compilation.cpp -o CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/korsar/Project/FAK-project/build/FAKApp_autogen/mocs_compilation.cpp -o CMakeFiles/FAKApp.dir/FAKApp_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/FAKApp.dir/src/main.cpp.o: CMakeFiles/FAKApp.dir/flags.make
-CMakeFiles/FAKApp.dir/src/main.cpp.o: /home/ted/BMSTUproga/FAK-project/src/main.cpp
+CMakeFiles/FAKApp.dir/src/main.cpp.o: /home/korsar/Project/FAK-project/src/main.cpp
 CMakeFiles/FAKApp.dir/src/main.cpp.o: CMakeFiles/FAKApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ted/BMSTUproga/FAK-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FAKApp.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FAKApp.dir/src/main.cpp.o -MF CMakeFiles/FAKApp.dir/src/main.cpp.o.d -o CMakeFiles/FAKApp.dir/src/main.cpp.o -c /home/ted/BMSTUproga/FAK-project/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/korsar/Project/FAK-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FAKApp.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FAKApp.dir/src/main.cpp.o -MF CMakeFiles/FAKApp.dir/src/main.cpp.o.d -o CMakeFiles/FAKApp.dir/src/main.cpp.o -c /home/korsar/Project/FAK-project/src/main.cpp
 
 CMakeFiles/FAKApp.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FAKApp.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ted/BMSTUproga/FAK-project/src/main.cpp > CMakeFiles/FAKApp.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/korsar/Project/FAK-project/src/main.cpp > CMakeFiles/FAKApp.dir/src/main.cpp.i
 
 CMakeFiles/FAKApp.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FAKApp.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ted/BMSTUproga/FAK-project/src/main.cpp -o CMakeFiles/FAKApp.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/korsar/Project/FAK-project/src/main.cpp -o CMakeFiles/FAKApp.dir/src/main.cpp.s
 
 CMakeFiles/FAKApp.dir/src/MainWindow.cpp.o: CMakeFiles/FAKApp.dir/flags.make
-CMakeFiles/FAKApp.dir/src/MainWindow.cpp.o: /home/ted/BMSTUproga/FAK-project/src/MainWindow.cpp
+CMakeFiles/FAKApp.dir/src/MainWindow.cpp.o: /home/korsar/Project/FAK-project/src/MainWindow.cpp
 CMakeFiles/FAKApp.dir/src/MainWindow.cpp.o: CMakeFiles/FAKApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ted/BMSTUproga/FAK-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FAKApp.dir/src/MainWindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FAKApp.dir/src/MainWindow.cpp.o -MF CMakeFiles/FAKApp.dir/src/MainWindow.cpp.o.d -o CMakeFiles/FAKApp.dir/src/MainWindow.cpp.o -c /home/ted/BMSTUproga/FAK-project/src/MainWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/korsar/Project/FAK-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FAKApp.dir/src/MainWindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FAKApp.dir/src/MainWindow.cpp.o -MF CMakeFiles/FAKApp.dir/src/MainWindow.cpp.o.d -o CMakeFiles/FAKApp.dir/src/MainWindow.cpp.o -c /home/korsar/Project/FAK-project/src/MainWindow.cpp
 
 CMakeFiles/FAKApp.dir/src/MainWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FAKApp.dir/src/MainWindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ted/BMSTUproga/FAK-project/src/MainWindow.cpp > CMakeFiles/FAKApp.dir/src/MainWindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/korsar/Project/FAK-project/src/MainWindow.cpp > CMakeFiles/FAKApp.dir/src/MainWindow.cpp.i
 
 CMakeFiles/FAKApp.dir/src/MainWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FAKApp.dir/src/MainWindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ted/BMSTUproga/FAK-project/src/MainWindow.cpp -o CMakeFiles/FAKApp.dir/src/MainWindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/korsar/Project/FAK-project/src/MainWindow.cpp -o CMakeFiles/FAKApp.dir/src/MainWindow.cpp.s
 
 # Object files for target FAKApp
 FAKApp_OBJECTS = \
@@ -137,7 +137,7 @@ FAKApp: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 FAKApp: /usr/lib/x86_64-linux-gnu/libGLX.so
 FAKApp: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 FAKApp: CMakeFiles/FAKApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ted/BMSTUproga/FAK-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable FAKApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/korsar/Project/FAK-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable FAKApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FAKApp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -149,6 +149,6 @@ CMakeFiles/FAKApp.dir/clean:
 .PHONY : CMakeFiles/FAKApp.dir/clean
 
 CMakeFiles/FAKApp.dir/depend: FAKApp_autogen/timestamp
-	cd /home/ted/BMSTUproga/FAK-project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ted/BMSTUproga/FAK-project /home/ted/BMSTUproga/FAK-project /home/ted/BMSTUproga/FAK-project/build /home/ted/BMSTUproga/FAK-project/build /home/ted/BMSTUproga/FAK-project/build/CMakeFiles/FAKApp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/korsar/Project/FAK-project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/korsar/Project/FAK-project /home/korsar/Project/FAK-project /home/korsar/Project/FAK-project/build /home/korsar/Project/FAK-project/build /home/korsar/Project/FAK-project/build/CMakeFiles/FAKApp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/FAKApp.dir/depend
 
